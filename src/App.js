@@ -3,7 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 import Title from './components/Title'
 import LightSwitch from './components/LightSwitch'
-import User from './components/User'
+import UserBoard from './components/UserBoard'
 
 class App extends Component {
   render() {
@@ -24,8 +24,7 @@ class App extends Component {
         <main>
           <Title content="Some Simple Title" />
           <LightSwitch />
-          <User content="Joe" />
-          <User content="Bill" />
+          <UserBoard />
         </main>
       </div>
     )
