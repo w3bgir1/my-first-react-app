@@ -31,3 +31,22 @@
     transform: rotate(360deg);
   }
 }
+
+#clock-container {
+  margin: 2em;
+  padding: 1em; 
+  font-size: 2em;
+  border: 2px solid #555555
+}
+
+#hours {
+  color: blue
+}
+
+#minutes {
+  color: orange
+}
+
+#seconds {
+  color: red
+}
